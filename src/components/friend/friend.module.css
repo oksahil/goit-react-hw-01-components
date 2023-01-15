@@ -1,0 +1,42 @@
+
+.friendList {
+    list-style: none;
+    background-color: #ffffff;
+    box-sizing: content-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+.friendItem {
+    display: flex;
+    padding: 25px;
+    gap: 20px;
+    margin-top: 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 20px 20px;
+}
+.statusGreen {
+    width: 15px;
+    height: 15px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    padding-top: 15%;
+}
+.statusRed {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 10px;
+    padding-top: 15%;
+}
+.name {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: calc(50 / 25);
+    align-items: center;
+    text-align: center;
+    color: dimgrey;
+}

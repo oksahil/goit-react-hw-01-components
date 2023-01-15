@@ -1,0 +1,48 @@
+.stat {
+    max-width: 800px;
+    box-sizing: content-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.501), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.737);
+    border-radius: 100px 0px 104px 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: calc(60 / 30);
+    text-align: center;
+    color: brown;
+    padding: 15px;
+}
+.statGrid {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+}
+.gridItem {
+    border: 3px solid gray;
+    padding: 10px 30px;
+    border-radius: 15px; 
+}
+.label {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: calc(30 / 25);
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.percentage {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: calc(30 / 25);
+    align-items: center;
+    text-align: center;
+    color: brown;
+}
