@@ -13,7 +13,5 @@ export default StatisticsItem;
 
 StatisticsItem.propTypes = {
     label: PropTypes.string.isRequired,
-    percentage: PropTypes.number.isRequired,
-    rendomColor: PropTypes.string,
-    
+    percentage: PropTypes.number.isRequired,   
 }
